@@ -13,6 +13,6 @@ def catalan(n):
             cat[n] = cat[n-1] + catalan(i) * catalan(n-1-i)
         return cat[n]
 
-catalan(30)
+catalan(100)
 
 print(cat)
